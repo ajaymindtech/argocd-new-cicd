@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/ajaymindtech/argocd-new-cicd.git'
-    path: ARGOCD-CICD/environments/staging/app2
+    path: /environments/staging/app2
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
